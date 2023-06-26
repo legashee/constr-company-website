@@ -1,0 +1,621 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.layout {
+    width: 1442px;
+    height: 100%;
+}
+
+.ecoremontlogoheader {
+    width: 182px;
+    height: 21.36px;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    width: 1368px;
+    height: 46px;
+    top: 23px;
+    justify-content: space-between;
+}
+
+.number {
+    width: 145px;
+    height: 46px;
+    top: 23px;
+}
+
+.number a {
+    text-decoration: none;
+}
+
+.text2 {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.firstscreen {
+    position: absolute;
+    height: 829px;
+    top: 150px;
+    width:1442px;
+}
+
+.h1screen {
+    width: 707px;
+    left: 251px;
+    margin: 0;
+
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 97px;
+    color: #FFFFFF;
+    letter-spacing: -0.05em;
+
+}
+
+
+.descriptionleft {
+    position: absolute;
+    width: 239px;
+    height: 46px;
+    left: 487px;
+    top: 240px;
+
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+}
+
+.leftblock {
+    width: 698px;
+}
+.leftblockimg1 {
+    position: absolute;
+    top: 349px;
+    width: 722px;
+    height: 480px;
+}
+
+.rightblock {
+    position: absolute;
+    width: 482px;
+    height: 480px;
+    left: 960px;
+    top: 349px;
+}
+
+.rightblockimg1 {
+    position: absolute;
+    top: 162px;
+    width: 482px;
+    height: 318px;
+}
+
+.descriptionright{
+    width: 239px;
+    height: 85px;
+    margin-left: 8px;
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.hook {
+    display: flex;
+    position: absolute;
+    height: 582px;
+    width:1442px;
+    top: 1109px;
+    border: 3px solid #272727;
+}
+
+.lefthook {
+    width: 624px;
+    height:100%;
+}
+
+.hookjab {
+    height: 100%;
+    width: 3px;
+    background-color:#272727;
+}
+
+.righthook {
+    display:flex;
+    justify-content: space-between;
+
+    width: 818px;
+    height:100%;
+    opacity: 100%;
+}
+.righthook img {
+    width:89px;
+    height:89px;
+}
+.sellingarticle {
+    display: flex;
+    position: absolute;
+    width: 555px;
+    height: 222px;
+    left: 40px;
+    top: 47px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    /* identical to box height */
+
+    letter-spacing: -0.005em;
+    color:#ffffff;
+}
+
+.vipolniaev {
+    margin-left:20px;
+}
+
+.sellingarticle2 {
+    display: flex;
+    position: absolute;
+    width: 555px;
+    height: 222px;
+    left: 40px;
+    top: 121px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    /* identical to box height */
+
+    letter-spacing: -0.005em;
+    color:#ffffff;
+}
+
+.selldescrip {
+    position: absolute;
+    width: 538px;
+    height: 65px;
+    left: 40px;
+    top:316px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.request {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    width: 538px;
+    height: 107px;
+    left: 40px;
+    top: 430px;
+    border: none;
+    background: #35C26E;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.005em;
+
+    color: #0F0F0F;
+}
+
+.blockhalf {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    color:#FFFFFF;
+    margin-left:24.5px;
+}
+
+.block_header {
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+}
+
+.block_footer {
+    font-size:24px;
+    opacity: 0.8;
+    width: 220px;
+}
+
+.block1 {
+    position: absolute;
+    width: 331px;
+    height: 95px;
+    left: 677px;
+    top: 108px;
+    display:flex;
+}
+
+.block2 {
+    position: absolute;
+    width: 331px;
+    height: 95px;
+    left: 1102px;
+    top: 108px;
+    display:flex;
+}
+
+.block3 {
+    position: absolute;
+    width: 331px;
+    height: 95px;
+    left: 677px;
+    top: 362px;
+    display:flex;
+}
+
+.block4 {
+    position: absolute;
+    width: 331px;
+    height: 95px;
+    left: 1102px;
+    top: 362px;
+    display:flex;
+}
+
+.works {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    height:300px;
+    width:1442px;
+    top: 1821px;
+}
+
+.workblock1 {
+    box-sizing: border-box;
+    width: 461px;
+    height: 293px;
+    border: 3px solid #272727;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.workblock2 {
+    box-sizing: border-box;
+    width: 461px;
+    height: 293px;
+    border: 3px solid #272727;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.workblock3 {
+    box-sizing: border-box;
+    width: 461px;
+    height: 293px;
+    border: 3px solid #272727;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.workheader1 {
+    margin: 0;
+    margin-left:33px;
+    margin-top:28px;
+
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    letter-spacing: -0.005em;
+    color: #35C26E;
+}
+
+.workheader2 {
+    margin: 0;
+    margin-left:33px;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    letter-spacing: -0.005em;
+    color: #ffffff;
+}
+
+.workdescr {
+    margin-left:33px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.portfolio {
+    position: absolute;
+    width: 1442px;
+    height: 720px;
+    top: 2244px;
+    background-image: url(/img/portfoliobg.jpg);
+    
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.port_header {
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: -0.005em;
+    color: #ffffff;
+
+    margin-top:312px;
+}
+
+.port_footer {
+    position: absolute;
+    width: 275px;
+    height: 40px;
+    left: calc(50% - 275px/2 + 1.5px);
+    top: 526px;
+    display:flex;
+    justify-content:space-between;
+
+    color: #e9e9e9;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.005em;
+    font-weight: 400;
+}
+
+.port_footer_txt {
+    height:12px;
+    margin-top:2px;
+}
+
+.forma {
+    position: absolute;
+    width:1442px;
+    top: 3094px;
+    height:650px;
+}
+
+.label {
+    margin-left:31px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: -0.005em;
+
+    display: flex;
+}
+
+.label1 {
+    color: #ffffff;
+}
+.label2 {
+    color: #35C26E;
+    margin-left: 17px;
+}
+.label3 {
+    margin-left:34px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.005em;
+    margin-top:15px;
+
+    opacity: 0.8;
+    color: #FFFFFF;
+}
+
+.footer {
+    position: absolute;
+    width: 1442px;
+    top: 3874px;
+    border: 2px solid #272727;
+}
+
+.footerimg {
+    margin: 0;
+    margin-left: 26px;
+    margin-top: 26px;
+    width: 256px;
+}
+
+.footer_line {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+
+    margin-top:45px;
+    margin-bottom:20px;
+}
+
+.itsart {
+    margin-left:20px;
+    height:26px;
+    margin-top:-8px;
+}
+
+.f1 {
+    margin-left:25px;
+}
+
+.f3 {
+    
+    margin-right: 25px;
+    display: flex;
+    color: #ffffff;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.form_group {
+    border: 3px solid #272727;
+    margin-top: 75px;
+    height: 453px;
+
+    
+}
+
+.form_group input {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.005em;
+
+    color: #E7E7E7;
+
+    text-indent: 30px;
+    
+}
+
+input::placeholder {
+    color: #E7E7E7;
+    opacity:100%;
+}
+
+.form_name {
+    width: 640px;
+    height: 102px;
+    background: transparent;
+    border: 2px solid #272727;
+}
+
+.form_mail {
+    width: 719px;
+    height: 102px;
+    background: transparent;
+    border: 2px solid #272727;
+}
+
+.form_surname {
+    width: 802px;
+    height: 102px;
+    background: transparent;
+    border: 2px solid #272727;
+}
+
+.form_number {
+    width: 723px;
+    height: 102px;
+    background: transparent;
+    border: 2px solid #272727;
+}
+
+.form_comment {
+    width: 100%;
+    height:102px;
+    background: transparent;
+    border: 2px solid #272727;
+}
+.fg1 {
+    display: flex;
+}
+
+.fg2 {
+    display: flex;
+}
+
+.fg3 {
+    display: flex;
+}
+
+.fg4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:128px;
+    border: 2px solid #272727;
+}
+
+.form_button {
+    width: 1394.25px;
+    height: 102px;
+    left: 260.88px;
+    top: 3616px;
+
+    border: 0;
+
+    background: #35C26E;
+    opacity: 0.9;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.005em;
+
+    color: #212121;
+}
+
+/* Адаптив */
+
+

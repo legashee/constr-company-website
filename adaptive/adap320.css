@@ -1,0 +1,643 @@
+@media only screen and (max-width: 1200px) {
+
+.layout {
+    width: 818px;
+    height: 100%;
+}
+
+.ecoremontlogoheader {
+    width: 288px;
+    height: 34px;
+    margin-top:8px;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    width: 813px;
+    height: 90px;
+    top: 63px;
+    justify-content: space-between;
+}
+
+.number {
+    width: 312.5px;
+    height: 43px;
+    top: 62.5px;
+}
+
+.text2 {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42.5px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.firstscreen {
+    position: absolute;
+    height: 1430px;
+    top: 302.5px;
+    width: 817.5px;
+}
+
+.h1screen {
+    width: 800px;
+    left: 87.5px;
+    margin: 0;
+
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 110px;
+    color: #FFFFFF;
+    letter-spacing: -0.05em;
+
+}
+
+.descriptionleft {
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    left: 415px;
+    top: 330px;
+
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.leftblock {
+    width: 817.5px;
+}
+
+.leftblockimg1 {
+    position: absolute;
+    top: 523px;
+    width: 818px;
+    height: 543px;
+}
+
+.rightblock {
+    position: absolute;
+    width: 817.5px;
+    height: 285px;
+    left: 0px;
+    top: 1153px;
+}
+
+.rightblockimg1 {
+    position: absolute;
+    top: 0px;
+    left: 405px;
+    width: 412.5px;
+    height: 285px;
+}
+
+.descriptionright{
+    width: 387.5px;
+    height: 215px;
+    margin-left: 0px;
+    font-family: 'gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.hook {
+    display: flex;
+    position: absolute;
+    height: 1005px;
+    width: 817.5px;
+    top: 1840px;
+    border: 3px solid #272727;
+}
+
+.lefthook {
+    width: 746px;
+    height:100%;
+}
+
+.hookjab {
+    display:none;
+}
+
+/* Начинаем отсюда. Каждое число с px умножаем на 2,5*/
+
+.righthook {
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 517.5px;
+    left:35.975px;
+
+    width: 510.425px;
+    height:232.1px;
+    opacity: 100%;
+}
+.righthook img {
+    width:87.5px;
+    height:87.5px;
+}
+.sellingarticle {
+    display: flex;
+    position: absolute;
+    width: 750px;
+    height: 555px;
+    left: 35.95px;
+    top: 60px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97.5px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+    color:#ffffff;
+}
+
+.vipolniaem {
+    margin-left:12px;
+}
+
+.sellingarticle2 {
+    display: flex;
+    position: absolute;
+    width: 750px;
+    height: 555px;
+    left: 35.95px;
+    top: 152.5px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97.5px;
+    /* identical to box height */
+
+    letter-spacing: -0.05em;
+    color:#ffffff;
+}
+
+.selldescrip {
+    position: absolute;
+    width: 745.575px;
+    height: 155px;
+    left: 35.95px;
+    top:310px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.request {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    width: 747.5px;
+    height: 130px;
+    left: 35px;
+    top: 837.5px;
+    border: none;
+    background: #35C26E;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62.5px;
+    letter-spacing: -0.005em;
+
+    color: #0F0F0F;
+}
+
+.blockhalf {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    color:#FFFFFF;
+    margin-left:25px;
+}
+
+.block_header {
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height */
+}
+
+.block_footer {
+    font-size:25px;
+    opacity: 0.8;
+    width: 225px;
+}
+
+.block1 {
+    position: absolute;
+    width: 315px;
+    height: 92.7px;
+    left: 0px;
+    top: 0px;
+    display:flex;
+}
+
+.block2 {
+    position: absolute;
+    width: 222.5px;
+    height: 92.5px;
+    left: 435px;
+    top: 0px;
+    display:flex;
+}
+
+.block3 {
+    position: absolute;
+    width: 302.5px;
+    height: 92.5px;
+    left: 0px;
+    top: 145px;
+    display:flex;
+}
+
+.block4 {
+    position: absolute;
+    width: 312.5px;
+    height: 92.5px;
+    left: 435px;
+    top: 145px;
+    display:flex;
+}
+
+.works {
+    display: flex;
+    position: absolute;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    height:1260px;
+    width:817.4px;
+    top: 2950px;
+}
+
+.workblock1 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 817.4px;
+    height: 380px;
+    border: 7.5px solid #272727;
+    top:0;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.workblock2 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 817.4px;
+    height: 380px;
+    border: 7.5px solid #272727;
+    top:465px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.workblock3 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 817.4px;
+    height: 380px;
+    border: 7.5px solid #272727;
+    top:930px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.workheader1 {
+    margin: 0;
+    margin-left:57.5px;
+    margin-top:50px;
+
+    font-size: 60px;
+    line-height: 72.5px;
+    /* identical to box height */
+    letter-spacing: -0.005em;
+    color: #35C26E;
+}
+
+.workheader2 {
+    margin: 0;
+    margin-left:57.5px;
+    font-size: 60px;
+    line-height: 72.5px;
+    /* identical to box height */
+    letter-spacing: -0.005em;
+    color: #ffffff;
+}
+
+.workdescr {
+    margin-left:57.5px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.5px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.portfolio {
+    position: absolute;
+    width: 817.45px;
+    height: 407.5px;
+    top: 4335px;
+    background-image: url(/img/portfoliobg.jpg);
+    background-size:contain;
+    
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.port_header {
+    font-size: 60px;
+    line-height: 72.5px;
+    letter-spacing: -0.005em;
+    color: #ffffff;
+
+    margin-top:65px;
+}
+
+.port_footer {
+    position: absolute;
+    width: 285px;
+    height: 40px;
+    left: calc(50% - 285.4px/2 + 1.025px);
+    top: 275px;
+    display:flex;
+    justify-content:space-between;
+
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    font-weight: 400;
+}
+
+.port_footer_txt {
+    height:75px;
+    margin-top:12.5px;
+}
+
+.forma {
+    position: absolute;
+    width:817.4px;
+    top: 5000px;
+    height:1205px;
+}
+
+.label {
+    margin-left:0px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 97.5px;
+    letter-spacing: -0.005em;
+
+    display: flex;
+}
+
+.label1 {
+    color: #ffffff;
+}
+.label2 {
+    color: #35C26E;
+    margin-left: 25px;
+}
+.label3 {
+    margin-left:0px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42.5px;
+    letter-spacing: -0.005em;
+    margin-top:37.5px;
+
+    opacity: 0.8;
+    color: #FFFFFF;
+}
+
+
+.form_group {
+    border: 7.5px solid #272727;
+    margin-top: 75px;
+    height: 878px;
+
+    
+}
+
+.form_group input {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42.5px;
+    letter-spacing: -0.005em;
+
+    color: #E7E7E7;
+
+    text-indent: 25px;
+    
+}
+
+input::placeholder {
+    color: #E7E7E7;
+    opacity:100%;
+}
+
+.form_name {
+    width: 817.4px;
+    height: 167.5px;
+    background: transparent;
+    border: 5px solid #272727;
+}
+
+.form_surname {
+    width: 793.5px;
+    height: 167.5px;
+    background: transparent;
+    border: 5px solid #272727;
+    position: absolute;
+    top: 432.5px;
+}
+
+.form_mail {
+    width: 793.5px;
+    height: 165px;
+    background: transparent;
+    border: 5px solid #272727;
+    position: absolute;
+    top: 609.5px;
+}
+
+
+.form_number {
+    width: 793.5px;
+    height: 167.5px;
+    background: transparent;
+    border: 5px solid #272727;
+    position: absolute;
+    top: 783.5px;
+}
+
+.form_comment {
+    width: 793.5px;
+    height: 167.5px;
+    background: transparent;
+    border: 5px solid #272727;
+    position: absolute;
+    top: 960.5px;
+}
+.fg1 {
+    display: flex;
+}
+
+.fg2 {
+    display: flex;
+}
+
+.fg3 {
+    display: flex;
+}
+
+.fg4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:175px;
+    border: 5px solid #272727;
+    position: absolute;
+    top: 1144px;
+    left:0px;
+}
+
+.form_button {
+    width: 807.5px;
+    height: 175px;
+    left: 0px;
+    top: 1000px;
+
+    border: 0;
+
+    background: #35C26E;
+    opacity: 0.9;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72.5px;
+    letter-spacing: -0.005em;
+
+    color: #212121;
+}
+
+.footer {
+    position: absolute;
+    width: 825px;
+    top: 6475px;
+    border: 5px solid #272727;
+    height:300px;
+}
+
+.footerimg {
+    margin: 0;
+    margin-left: 65px;
+    margin-top: 65px;
+    width: 344.25px;
+}
+
+.footer_line {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: -0.005em;
+
+    color: #FFFFFF;
+
+    margin-top:45px;
+    margin-bottom:125px;
+}
+
+.itsart {
+    position: absolute;
+    height:65px;
+    width:107.5px;
+    height: 32.5px;
+    left: 240px;
+    top:1px;
+}
+
+.f1 {
+    position:absolute;
+    left: 35px;
+    top: 150px;
+}
+
+.f2 {
+    position:absolute;
+    left: 700px;
+    top: 225px;
+}
+
+.f3 {
+    position:absolute;
+    left: 60px;
+    top: 225px;
+    display: flex;
+    color: #ffffff;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+
+}
